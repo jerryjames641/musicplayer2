@@ -38,7 +38,7 @@ audio {
 button {
     background: #61dafb;
     border: none;
-    border-radius: 0px;
+    border-radius: 10px; /* Update this value */
     color: black;
     padding: 10px 15px;
     cursor: pointer;
