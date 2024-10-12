@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Music Player</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .blink {
+            animation: blinker 1s linear infinite;
+            color: red;
+            font-size: 1.5em;
+            /* Larger, responsive font size */
+            margin-bottom: 20px;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+
+
+    
 </head>
 <body>
    <div class="player">
