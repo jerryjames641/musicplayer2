@@ -5,7 +5,7 @@ const nextButton = document.getElementById('next');
 const trackTitle = document.getElementById('track-title');
 
 let trackList = [
-    { title: 'Aromale Nin', src: 'song 1.mp3' },
+    { title: 'Aaromale Nin', src: 'song 1.mp3' },
     { title: 'Kathoram Oru', src: 'song 2.mp3' },
     { title: 'Thingalum Aambalum', src: 'song 3.mp3' },
     { title: 'Chempaneerpoove Nee', src: 'song 4.mp3' },
