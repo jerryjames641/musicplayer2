@@ -5,9 +5,12 @@ const nextButton = document.getElementById('next');
 const trackTitle = document.getElementById('track-title');
 
 let trackList = [
-    { title: 'Track 1', src: 'song.mp3' },
-    { title: 'Track 2', src: 'song.mp3' },
-    { title: 'Track 3', src: 'song.mp3' },
+    { title: 'Track 1', src: 'song 1.mp3' },
+    { title: 'Track 2', src: 'song 2.mp3' },
+    { title: 'Track 3', src: 'song 3.mp3' },
+    { title: 'Track 3', src: 'song 4.mp3' },
+    { title: 'Track 3', src: 'song 5.mp3' },
+
 ];
 
 let currentTrackIndex = 0;
